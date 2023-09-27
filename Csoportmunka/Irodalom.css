@@ -28,6 +28,30 @@ header {
     text-align: center;
 }
 
-p {
- color: orangered;
+footer {
+    text-align: center;
+    background-color: lightblue;
+    padding: 20px;
+    font-size: 150%;
+    margin-top: 20px;
+}
+
+#tetejere {
+    width:20vw;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 2%;
+    right: -15%;
+}
+
+#tetejere:hover {
+    right: 0vw;
+    transition: 1s;
+}
+
+#tetejere:not( hover) {
+    transition: 1s;
 }
