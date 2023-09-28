@@ -35,8 +35,8 @@ header {
     width: auto;
 }
 
-table {
-    margin: auto;
+#rounded {
+    text-align: center;
 }
 
 h2 {
@@ -75,5 +75,3 @@ footer {
 #tetejere:not( hover) {
     transition: 1s;
 }
-
-
