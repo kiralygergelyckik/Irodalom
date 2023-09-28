@@ -22,14 +22,14 @@ header {
     background-color: black;
     color: orange;
     font-family:sans-serif;
-    font-size: 6vw;
+    font-size: 5vw;
     font-variant: small-caps;
     letter-spacing: 4px;
     text-align: center;
 }
 
 #Magyar_Irodalom {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     background-color: lightsalmon;
     text-align: center;
     width: auto;
@@ -37,6 +37,15 @@ header {
 
 table {
     margin: auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+#linkek {
+    text-align: center;
+    width: auto;
 }
 
 footer {
@@ -66,4 +75,5 @@ footer {
 #tetejere:not( hover) {
     transition: 1s;
 }
+
 
