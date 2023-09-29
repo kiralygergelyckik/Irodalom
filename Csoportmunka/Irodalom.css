@@ -1,28 +1,31 @@
-tml {
-    background-color: rgb(224, 154, 3);
-    background-color: rgb(255, 255, 255, 80%);
-}
-
 body {
-     width: 80%;
-     border: 1px solid black;
+    width: 80%;
+    border: 3px solid black;
     margin: auto;
-    padding: 5px;
+    background-image: url("https://mindentudasboltja.hu/img/69254/SLD301_altpic_3/SLD301.jpg?time=1442164827");
+    background-size:100vw;
     text-align: justify;
 }
 
-hr {
-    opacity: 100%;
+article {
+    background-color: rgb(255, 229, 85);
+    border: 5px solid rgb(142, 151, 127);
+    padding: 20px;
+    opacity: 96%;
 }
 
 h1 h2 h3 {
     margin: 20px 0px;
-    font-family: fantasy;
+    font-family: 'Courier New', Courier, monospace;
 }
+
+ul {
+    list-style-type: square;
+  }
 
 header {
     padding: 2%;
-    background-color: black;
+    background-color: rgb(142, 151, 127);
     color: orange;
     font-family:sans-serif;
     font-size: 5vw;
@@ -36,27 +39,50 @@ header {
     background-color: lightsalmon;
     text-align: center;
     width: auto;
+    float: right;
 }
 
-#rounded {
-    text-align: center;
+#lista {
+    width: 10px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: auto;
+    float: right;
+    background-color: rgb(255, 229, 85);
+    height: auto;
+}
+
+td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+  }
+
+td {
+    color: rgb(85, 83, 83);
 }
 
 h2 {
     text-align: center;
+    padding: 10px;
 }
 
-#linkek {
-    text-align: center;
-    width: auto;
+img {
+    width: 150px;
+    height: 150px;
+    background-color: lightblue;
+    float: left;
+    margin-right: 5px;
 }
 
 footer {
     text-align: center;
-    background-color: lightblue;
+    background-color: rgb(142, 151, 127);
     padding: 20px;
     font-size: 150%;
-    margin-top: 20px;
 }
 
 #tetejere {
@@ -85,4 +111,20 @@ footer {
 
 #tetejere:not( hover) {
     transition: 1s;
+}
+
+a:hover, a:active {
+  background-color: rgb(255, 228, 77);
+  color: black;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 2px 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+@media screen and (max-width: 630px) {
+    body {
+    background-color: aqua;
+    }
 }
